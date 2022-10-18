@@ -1,6 +1,13 @@
 class staticAnimation {
-    Console.Write("  /|\\  ");
-    Console.Write("  / \\  ");
-    Console.Write("");
-    Console.Write("^^^^^^^");
+    public void drawGround() {
+        var playerIsAlive = true;
+        while (playerIsAlive){
+            Console.WriteLine("  /|\\  ");
+            Console.WriteLine("  / \\  ");
+            Console.WriteLine("");
+            Console.WriteLine("^^^^^^^");
+        }
+        
+    }
+    
 }
