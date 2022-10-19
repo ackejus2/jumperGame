@@ -9,5 +9,4 @@
 }}
 
 
-
-    
+string new_word = WordList.pull_random_card();

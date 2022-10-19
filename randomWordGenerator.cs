@@ -10,9 +10,10 @@ class wordList {
         ListOfWords.Add("trick");
     }
 
-    Random generator = new Random();
+    private wordList ListSpookyWords = new wordList();
+    private Random generator = new Random();
     public string pull_random_word(){ 
-        int randIndex = generator.Next(ListOfWords.Count);
+        int randIndex = generator.Next(ListSpookyWords.ListOfWords.Count);
         string random_word = ListOfWords[randIndex];
         ListOfWords.RemoveAt(randIndex);
         return random_word;
