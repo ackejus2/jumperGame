@@ -1,13 +1,14 @@
 ﻿class Program{
     static void Main(string[] args){
+        wordList randomWord = new wordList();
 
 
-    while (playerIsAlive){
-
+    if (playerIsAlive){
+        wordList randomWord = new wordList();
+        string word = randomWord.pull_random_word();
 
         Console.WriteLine("Guess a letter [a-z]: ");
         string? user_guess = Console.ReadLine();
-
     }
         //determine if player is crrect
         //if they are remove letter and draw letter on screen
@@ -18,5 +19,5 @@
     
 }}
 
-string new_word = WordList.pull_random_card();
+
     

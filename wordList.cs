@@ -1,8 +1,8 @@
-class wordList {
+public class wordList {
 
     private List<string> ListOfWords = new List<string>();
 
-    private wordList(){
+    public wordList(){
         ListOfWords.Add("ghost");
         ListOfWords.Add("treat");
         ListOfWords.Add("candy");
@@ -13,6 +13,7 @@ class wordList {
     private wordList ListSpookyWords = new wordList();
     private Random generator = new Random();
     public string pull_random_word(){ 
+        
         int randIndex = generator.Next(ListSpookyWords.ListOfWords.Count);
         string random_word = ListOfWords[randIndex];
         ListOfWords.RemoveAt(randIndex);
