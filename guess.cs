@@ -17,7 +17,7 @@ public class Guess {
 
     public string getUnknown(){
         // return a string from the unknown list
-        string wordString = String.Join(",", unknown);
+        string wordString = String.Join("", unknown);
         return wordString;
             }
 
