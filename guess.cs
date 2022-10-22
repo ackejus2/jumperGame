@@ -1,20 +1,21 @@
 public class Guess {
-    string[] unknown = {"_", "_", "_", "_", "_"};
-    public char users_guess = 
+    char[] unknown = {'_', '_', '_', '_', '_'};
+    string word = "treat";
     // need to pull the name that we used in the main program
     
-    public Guess(char guess){
-        users_guess = guess;
+    public Guess(string randWord){
+        word = randWord;
     }
 
-    public user_guess(char){
-        for (int i = 0 , i < word.len(), i++);
-        if word[i] == char{
-            unknown[i] = char
+    public void user_guess(char guessIn){
+        for (int i = 0 ; i < word.Length; i++){
+        if (word[i] == guessIn) {
+            unknown[i] = guessIn;
+        }
         }
     }
 
-    string getUnknown(){
+    public string getUnknown(){
         // return a string from the unknown list
         string wordString = String.Join(",", unknown);
         return wordString;

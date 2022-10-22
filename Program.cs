@@ -3,7 +3,7 @@
         var playerIsAlive = true;
         wordList randomWord = new wordList();
         string word = randomWord.pull_random_word();
-        Guess newGuess = new Guess();
+        Guess newGuess = new Guess(word);
 
         while (playerIsAlive){
             Console.WriteLine("Guess a letter [a-z]: ");
@@ -11,6 +11,7 @@
             char charGuess = Convert.ToChar(stringGuess);
             newGuess.user_guess(charGuess);
             string guessLine = newGuess.getUnknown();
+            Console.WriteLine(guessLine);
             
 
     }
