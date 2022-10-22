@@ -10,7 +10,7 @@
             string? stringGuess = Console.ReadLine();
             char charGuess = Convert.ToChar(stringGuess);
             newGuess.user_guess(charGuess);
-            string guessLine = getUnknown();
+            string guessLine = newGuess.getUnknown();
             
 
     }
