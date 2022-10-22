@@ -33,10 +33,10 @@ class dynamicAnimation {
     public void drawHead() {
         var playerIsAlive = true;
         var playerIsDead = false;
-        while (playerIsAlive){
+        if (playerIsAlive){
             Console.WriteLine("  o  ");
         }
-        if (playerIsDead){
+        else if (playerIsDead){
             Console.WriteLine("  x  ");
         }
     }
