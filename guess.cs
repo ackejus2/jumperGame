@@ -1,20 +1,20 @@
-class Guess {
+public class Guess {
     string[] unknown = {"_", "_", "_", "_", "_"};
-    string chare = user_guess
+    public char users_guess = 
     // need to pull the name that we used in the main program
-
-    Guess(Guess, cosita){
     
+    public Guess(char guess){
+        users_guess = guess;
     }
 
-    user_guess(char){
+    public user_guess(char){
         for (int i = 0 , i < word.len(), i++);
         if word[i] == char{
             unknown[i] = char
         }
     }
 
-    getUnknown(unknown){
+    string getUnknown(){
         // return a string from the unknown list
         string wordString = String.Join(",", unknown);
         return wordString;
