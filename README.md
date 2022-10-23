@@ -18,4 +18,4 @@ C#
 Team members:
 Justin Ackerman -ack19001@bui.edu
 Bailey Diaz - baileydiaz10@gmail.com
-Trevor -
+Trevor - trevorjac3@gmail.com
